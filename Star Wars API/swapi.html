@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="./swapi.css">
+    <link href="https://fonts.googleapis.com/css?family=Poller+One" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>STAR WARS</h1>
+    <h2>CHOOSE YOUR HERO...</h2>
+    <div class="container">
+        <div id="card1">
+            <ul>
+                <br><img src="Images/Cruiser.png" alt="No Pic"><br><br>
+                <li id="li1">Click below to generate a random character</li>
+                <li id="li2"></li>
+                <li id="li3"></li>
+                <li id="li4"></li>
+                <li id="li5"></li>
+                <br>
+                <button id="btn1" class="btn btn-block btn-info">
+                    <i class="fab fa-rebel"></i>
+                </button><br>
+                <br>
+                <span>or search for a hero:</span><br><br>
+                <input type="text" name="charname" class="character" placeholder="Enter a character's name..."><br><br>
+            </ul>
+        </div>
+        <div id="card2">
+            <ul>
+                <br><img src="Images/Deathstar.png" alt="No Pic"><br><br>
+                <li id="li6">Click below to generate character</li>
+                <li id="li7"></li>
+                <li id="li8"></li>
+                <li id="li9"></li>
+                <li id="li10"></li>
+                <br>
+                <button id="btn2" class="btn btn-block btn-info">
+                    <i class="fab fa-sith"></i>
+                </button><br>
+                <br>
+                <span>or search for a hero:</span><br><br>
+                <input type="text" name="charname" class="character" placeholder="Enter a character's name..."><br><br>
+            </ul>
+        </div>
+        <audio autoplay>
+            <source src="Sounds/the-imperial-march-by-the-vienna-philharmonic-orchestra-hq.mp3" type="audio/mp3">
+        </audio>
+
+    </div>
+    <script src="./swapi.js"></script>
+</body>
+
+</html>

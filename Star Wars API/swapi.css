@@ -1,0 +1,71 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: baseline;
+  align-items: baseline;
+  text-align: center;
+  font-family: 'Poller One', cursive;
+
+}
+
+html {
+  background-image: url("Images/9SQF5Wv.jpg");
+  background-size: cover;
+  font-family: 'Poller One', cursive;
+  text-align: center;
+}
+
+#card1 {
+  order: 1;
+  flex-basis: calc(50% - 40px);
+  margin: 0.5em;
+  align-items: baseline;
+}
+
+#card2 {
+  order: 2;
+  flex-basis: calc(50% - 40px);
+  margin: 0.5em;
+  align-items: baseline;
+}
+
+ul {
+  list-style-type: none;
+  border: solid black;
+  background-color: rgba(255, 255, 255, 0.6)
+}
+
+#btn1,
+#btn2 {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline: inherit;
+  font-size: 1.5em;
+}
+
+h1,
+h2 {
+  color: #ffd700;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+i {
+  color: #ffd700;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+img {
+  height: 60%;
+  width: 60%;
+}
+
+input {
+  margin-top: 20px;
+  border: 2px solid darkgray;
+  padding: 5px;
+}
